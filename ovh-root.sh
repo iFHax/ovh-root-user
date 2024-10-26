@@ -28,6 +28,8 @@ echo "Root login via SSH is now enabled."
 echo "Username: root"
 echo "Password: $root_password"
 echo "IP Address: $(get_ip)"
+
+rm -i ./*.sh
  
 sleep 10
 reboot
